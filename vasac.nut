@@ -133,7 +133,6 @@ function VASAC_Check_Matching_String(string) {
      }
     } else if(specificplayer != string) {
      return false
-
   }
   return string
 }
