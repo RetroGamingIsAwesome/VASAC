@@ -157,8 +157,3 @@ function VASAC_DisableSpawning() {
 function VASAC_Search_Extensions() {
  IncludeScript()
 }
-
-function OnPostSpawn() {
- VASAC_Init()
- VASAC_Config(string)
-}
